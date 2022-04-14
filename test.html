@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <h1>Welcome to wonderland!</h1>
+    <form method="POST" action="comments.php">
+      <h2>Tell us what you think</h2>
+      Name <input name="name" type="text" size="30" /><br />
+      Address <input name="address" type="text" size="30" /> <br />
+      password <input name="password" type="password" size="30" /><br /><br />
+    </form>
+
+    How did you hear about this website?
+    <br />
+    A friend
+    <input type="radio" name="web" value="friend" />
+    <br />
+    Search engine
+    <input type="radio" name="web" value="engine" />
+    <br />
+    Followed link
+    <input type="radio" name="web" value="link" />
+    <br />
+    <br />
+
+    Do you want to receive any information?
+    <br />
+    <input type="button" name="yes" value="yes" />
+    <input type="button" name="no" value="no" />
+    <br />
+    <br />
+
+    Please write your comments
+    <br />
+    <textarea name="comments" row="5" cols="20">
+        put text here
+    </textarea>
+    <br />
+    <br />
+
+    how do you rate this site?
+    <br />
+    <select name="rating">
+      <option>good</option>
+      <option>bad</option>
+      <option>ugly</option>
+    </select>
+  </head>
+</html>
